@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CustomView</string>
+    <string name="change">change data</string>
+    <string name="empty_histogram">No data for histogram</string>
 </resources>
