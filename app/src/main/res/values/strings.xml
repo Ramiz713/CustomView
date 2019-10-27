@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">CustomView</string>
+    <string name="title_main">Главная</string>
+    <string name="title_events">События</string>
+    <string name="title_settings">Настройки</string>
+
+    <!--    home screen-->
+    <string name="available">Доступно</string>
+    <string name="take_back_money">Забрать деньги</string>
+
+    <!--    payment screen-->
+
+    <string name="button_pay">Оплатить</string>
+    <string name="total_sum">9600 \u20BD</string>
+    <string name="total_sum_title">Итого к оплате:</string>
+    <string name="product_price">1500 \u20BD</string>
+    <string name="product_name">Кружка белая</string>
+    <string name="payment_type_title">Оплата</string>
+    <string name="payment_type">Картой **** **** **** 2140</string>
+    <string name="delivery_title">Доставка</string>
+    <string name="delivery_city_price">100 ₽</string>
+    <string name="delivery_city_title">Доставка по городу</string>
+    <string name="delivery_charge_title">Надбавка за срочность</string>
+    <string name="delivery_charge_price">500 \u20BD</string>
+    <string name="delivery">Экспресс доставка курьером</string>
+    <string name="cost_title">Стоимость</string>
+    <string name="order_cost">1 500 \u20BD x 4</string>
+    <string name="delivery_cost">600 \u20BD</string>
+    <string name="discount_cost">-</string>
+    <string name="discount_title">Скидка</string>
+    <string name="result_title">Итог:</string>
+    <string name="result_sum">9 600 \u20BD</string>
+    <string name="more">More</string>
+    <string name="income_sum">+%s \u20BD</string>
+    <string name="outcome_sum">-%s \u20BD</string>
+    <string name="chat">chat</string>
+
+
+    <!--    samokatus screen-->
+
 </resources>

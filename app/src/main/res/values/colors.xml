@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <!--    home screen-->
+    <color name="colorAccent">#7C5BFF</color>
+    <color name="colorNonActive">#64676A</color>
+    <color name="colorHomeText">#0D1317</color>
+    <color name="colorHomeGrayText">#520D1317</color>
+    <color name="colorHomeGreen">#3BA99C</color>
+    <color name="colorHomeCardBcg">#99E9F1F7</color>
+
+    <!--    payment screen-->
+    <color name="colorPaymentPrimary">#FF8A00</color>
+    <color name="colorBackground">#F7F7F7</color>
+    <color name="colorButton">#FF8A00</color>
+    <color name="colorPaymentText">#252525</color>
+    <color name="colorPaymentGrayText">#CC252525</color>
+    <color name="colorPaymentLightGrayText">#000000</color>
+
+    <!--    samokatus screen-->
+    <color name="colorSamokatusBackground">#F5F7F9</color>
 </resources>
