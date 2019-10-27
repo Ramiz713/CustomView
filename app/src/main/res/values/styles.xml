@@ -1,11 +1,55 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <!-- Home -->
+    <style name="HomeTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="HomeTextAppearance" />
+
+    <style name="HomeTextAppearance.Small">
+        <item name="android:textColor">@color/colorHomeText</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--    Payment-->
+    <style name="PaymentTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@color/colorButton</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <!--    доп. цветовая тема-->
+    <style name="PaymentVioletTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <style name="PaymentTextAppearance" />
+
+    <style name="PaymentTextAppearance.Small">
+        <item name="android:textColor">@color/colorPaymentLightGrayText</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PaymentTextAppearance.Medium">
+        <item name="android:textColor">@color/colorPaymentText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PaymentTextAppearance.Medium.Gray">
+        <item name="android:textColor">@color/colorPaymentGrayText</item>
+    </style>
+
+    <!--    Samokatus-->
+    <style name="SamokatusTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/colorSamokatusBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/colorSamokatusBackground</item>
     </style>
 
 </resources>
